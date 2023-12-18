@@ -27,61 +27,85 @@ export const links = [
   },
 ];
 
-export const programs = [
-  {
-    id: 1,
-    icon: "<SiOpenaigym />",
-    title: "Program One",
-    info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/111",
-  },
-  {
-    id: 2,
-    icon: "<SiOpenaigym />",
-    title: "Program Two",
-    info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/222",
-  },
-  {
-    id: 3,
-    icon: "<SiOpenaigym />",
-    title: "Program Three",
-    info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/333",
-  },
-  {
-    id: 4,
-    icon: "<SiOpenaigym />",
-    title: "Program Four",
-    info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/444",
-  },
-];
+// export const programs = [
+//   {
+//     id: 1,
+//     icon: <SiOpenaigym />,
+//     title: "Program One",
+//     info: "This is the day that the lord has made. We will rejoice!",
+//     path: "/programs/111",
+//   },
+//   {
+//     id: 2,
+//     icon: <SiOpenaigym />,
+//     title: "Program Two",
+//     info: "This is the day that the lord has made. We will rejoice!",
+//     path: "/programs/222",
+//   },
+//   {
+//     id: 3,
+//     icon: <SiOpenaigym />,
+//     title: "Program Three",
+//     info: "This is the day that the lord has made. We will rejoice!",
+//     path: "/programs/333",
+//   },
+//   {
+//     id: 4,
+//     icon: <SiOpenaigym />,
+//     title: "Program Four",
+//     info: "This is the day that the lord has made. We will rejoice!",
+//     path: "/programs/444",
+//   },
+// ];
 
 export const values = [
   {
     id: 1,
-    icon: "<SiOpenaigym />",
-    title: "Value One",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    icon: <SiOpenaigym />,
+    title: "Communication",
+    desc: "Communicate with a clear, succinct language.",
   },
   {
     id: 2,
-    icon: "<SiOpenaigym />",
-    title: "Value Two",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    icon: <SiOpenaigym />,
+    title: "Listening",
+    desc: "Listen with intent to understand.",
   },
   {
     id: 3,
-    icon: "<SiOpenaigym />",
-    title: "Value Three",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    icon: <SiOpenaigym />,
+    title: "Quality",
+    desc: "Quality is our top priority.",
   },
   {
     id: 4,
-    icon: "<SiOpenaigym />",
-    title: "Value Four",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    icon: <SiOpenaigym />,
+    title: "Usability",
+    desc: "If it's not a pleasure to use, it's not worth building.",
+  },
+  {
+    id: 5,
+    icon: <SiOpenaigym />,
+    title: "Confidentiality",
+    desc: "Respect the right to privacy.",
+  },
+  {
+    id: 6,
+    icon: <SiOpenaigym />,
+    title: "Work Ethic",
+    desc: "We work with intensity and focus.",
+  },
+  {
+    id: 7,
+    icon: <SiOpenaigym />,
+    title: "Teamwork",
+    desc: "Work together as a team.",
+  },
+  {
+    id: 8,
+    icon: <SiOpenaigym />,
+    title: "Vision",
+    desc: "Defining the future by staying current with all the changes in technology.",
   },
 ];
 

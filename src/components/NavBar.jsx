@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import Logo from "../assets/images/Avatar50.png";
 import { useState } from "react";
-import { links } from "../assets/data";
+import { links } from "../assets/data1";
 import { FaBars } from "react-icons/fa";
 import { MdOutlineClose } from "react-icons/md";
 
