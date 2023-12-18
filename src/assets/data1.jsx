@@ -1,3 +1,8 @@
+import { MdOutlineDesignServices } from "react-icons/md";
+import { MdDeveloperMode } from "react-icons/md";
+import { SiXdadevelopers } from "react-icons/si";
+import { GrLanguage } from "react-icons/gr";
+
 import { SiOpenaigym } from "react-icons/si";
 import { GiSatelliteCommunication } from "react-icons/gi";
 import { FaEarListen } from "react-icons/fa6";
@@ -34,36 +39,36 @@ export const links = [
   },
 ];
 
-// export const programs = [
-//   {
-//     id: 1,
-//     icon: <SiOpenaigym />,
-//     title: "Program One",
-//     info: "This is the day that the lord has made. We will rejoice!",
-//     path: "/programs/111",
-//   },
-//   {
-//     id: 2,
-//     icon: <SiOpenaigym />,
-//     title: "Program Two",
-//     info: "This is the day that the lord has made. We will rejoice!",
-//     path: "/programs/222",
-//   },
-//   {
-//     id: 3,
-//     icon: <SiOpenaigym />,
-//     title: "Program Three",
-//     info: "This is the day that the lord has made. We will rejoice!",
-//     path: "/programs/333",
-//   },
-//   {
-//     id: 4,
-//     icon: <SiOpenaigym />,
-//     title: "Program Four",
-//     info: "This is the day that the lord has made. We will rejoice!",
-//     path: "/programs/444",
-//   },
-// ];
+export const programs = [
+  {
+    id: 1,
+    icon: <MdOutlineDesignServices />,
+    title: "Web Design",
+    info: "Complete design services using Figma for layouts.",
+    path: "/programs/111",
+  },
+  {
+    id: 2,
+    icon: <MdDeveloperMode />,
+    title: "Web Development",
+    info: "Using HTML, CSS and JavaScript your site is built to meet your needs",
+    path: "/programs/222",
+  },
+  {
+    id: 3,
+    icon: <SiXdadevelopers />,
+    title: "Backend Development",
+    info: "This is the day that the lord has made. We will rejoice!",
+    path: "/programs/333",
+  },
+  {
+    id: 4,
+    icon: <GrLanguage />,
+    title: "Custom Programming",
+    info: "Using C++, Java, Python we can develop different web apps for your needs",
+    path: "/programs/444",
+  },
+];
 
 export const values = [
   {
