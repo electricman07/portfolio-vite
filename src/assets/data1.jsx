@@ -1,4 +1,4 @@
-import { MdOutlineDesignServices } from "react-icons/md";
+import { FaPencilAlt } from "react-icons/fa";
 import { MdDeveloperMode } from "react-icons/md";
 import { SiXdadevelopers } from "react-icons/si";
 import { GrLanguage } from "react-icons/gr";
@@ -42,9 +42,9 @@ export const links = [
 export const programs = [
   {
     id: 1,
-    icon: <MdOutlineDesignServices />,
+    icon: <FaPencilAlt />,
     title: "Web Design",
-    info: "Complete design services using Figma for layouts.",
+    info: "Complete design services using tools such as Figma for layouts.",
     path: "/programs/111",
   },
   {
