@@ -125,6 +125,38 @@
   color: var(--paynes-gray);
 }
 
+/******************** FAQs ********************/
+.faqs__wrapper {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem 5rem;
+  align-items: flex-start;
+}
+
+.faq {
+  background: var(--paynes-gray);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.faq div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq__icon {
+  background: transparent;
+  color: var(--misty-rose);
+  font-size: 1.5rem;
+}
+
+.faq p {
+  margin-top: 1.5rem;
+}
+
 /* MEDIA QUERIES (medium screens) */
 @media screen and (max-width: 1024px) {
   /* MAIN HEADER */
@@ -150,6 +182,16 @@
 
   .values__image {
     display: none;
+  }
+
+  /* PROGRAMS */
+  .programs__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* FAQs */
+  .faqs__wrapper {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -179,5 +221,23 @@
   .card.values__value {
     width: 84%;
     margin-inline: auto;
+  }
+
+  /* PROGRAMS */
+  .programs__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .programs__program {
+    width: 84%;
+    margin: 0 auto;
+  }
+
+  /* FAQs */
+  .faqs__wrapper {
+    gap: 1rem;
+    margin-top: 3rem;
   }
 }
